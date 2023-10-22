@@ -1,2 +1,17 @@
-# CS465-fullstack
-CS-465 Full Stack Development with MEAN
+### Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
+I utilized various coding technologies, such as HTML and JavaScript. The initial template for the travel website was created with Express HTML but was later transitioned to JavaScript to enhance rendering speed by avoiding the need to load every component of the site with each refresh. This transition also facilitated interaction with backend databases for dynamic information updates. Furthermore, after the frontend and backend transition, JavaScript was responsible for fetching trip information from the MongoDB database, enabling the webpage to change dynamically based on user interactions. The project also adopted the concept of a single-page application, which prevents full page refreshes when users interact with the site, providing a more native application-like experience during interactions.
+
+### Why did the backend use a NoSQL MongoDB database?
+NoSQL databases like MongoDB can offer faster performance than traditional relational databases and enable easier schema evolution. They allow for the addition of new fields or changes to existing data structures without the need for complex migration scripts, which is particularly advantageous in agile development environments where requirements frequently change.
+
+### How is JSON different from Javascript and how does JSON tie together the frontend and backend development pieces?
+JSON is a lightweight, text-based data format used for representing structured data, whereas JavaScript is used for building dynamic web applications. JSON serves as a common data format that bridges the gap between frontend and backend development by facilitating seamless data exchange and integration between the two layers.
+
+### Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.
+Reusing UI components is beneficial as it reduces the overall size of an application, expedites the development process, and minimizes the chance of errors. Some instances where I refactored code included using handlebars to enable consistent headers across the website instead of hardcoding them on each page. Additionally, I refactored the trip components by rendering each trip separately but as part of the whole, which improved the overall functionality of the site.
+
+### Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.
+In a full-stack application, methods refer to HTTP request methods like GET, POST, PUT, and DELETE, which are used to interact with endpoints, such as URLs or routes within the application. These methods perform actions like data retrieval or modification, particularly for the trips data. Security measures involve implementing additional layers of protection to ensure that only authorized users or systems can access and manipulate data through these endpoints.
+
+### How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
+This course has been instrumental in my pursuit of full-stack development, providing valuable proficiency in both backend and frontend development processes and insights into website construction. Among the skills gained, JavaScript stands out as a highly valuable asset for a software developer, especially in the context of my computer science career aspirations.
